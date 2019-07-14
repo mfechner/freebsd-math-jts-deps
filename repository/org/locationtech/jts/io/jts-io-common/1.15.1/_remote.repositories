@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jul 14 11:23:59 CEST 2019
+jts-io-common-1.15.1-sources.jar>=
+jts-io-common-1.15.1.pom>=
+jts-io-common-1.15.1-javadoc.jar>=
+jts-io-common-1.15.1.jar>=

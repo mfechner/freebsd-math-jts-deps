@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jul 14 11:24:12 CEST 2019
+jts-lab-1.15.1.jar>=
+jts-lab-1.15.1-sources.jar>=
+jts-lab-1.15.1.pom>=
+jts-lab-1.15.1-javadoc.jar>=
