@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jul 18 11:38:47 CEST 2019
+jts-app-1.16.1.pom>=
+jts-app-1.16.1-sources.jar>=
+jts-app-1.16.1.jar>=

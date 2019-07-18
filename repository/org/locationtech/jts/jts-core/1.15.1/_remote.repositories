@@ -1,7 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jul 14 11:23:57 CEST 2019
-jts-core-1.15.1.pom>=
-jts-core-1.15.1-sources.jar>=
-jts-core-1.15.1-tests.jar>central.maven.org=
-jts-core-1.15.1-javadoc.jar>=
-jts-core-1.15.1.jar>=
