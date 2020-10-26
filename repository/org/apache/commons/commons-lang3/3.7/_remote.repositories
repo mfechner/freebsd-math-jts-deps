@@ -1,4 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Jul 18 11:38:43 CEST 2019
-commons-lang3-3.7.jar>central.maven.org=
-commons-lang3-3.7.pom>central.maven.org=
+#Mon Oct 26 07:08:22 CET 2020
+commons-lang3-3.7.pom>central=
+commons-lang3-3.7.jar>central=

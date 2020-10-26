@@ -1,281 +1,298 @@
-<repository lastmodified='20190718113839.258'>
-  <resource id='org.locationtech.jts.jts-core/1.16.1' symbolicname='org.locationtech.jts.jts-core' presentationname='jts-core' uri='org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar' version='1.16.1'>
+<repository lastmodified='20201026070818.681'>
+  <resource id='org.locationtech.jts.jts-core/1.17.1' symbolicname='org.locationtech.jts.jts-core' presentationname='jts-core' uri='org/locationtech/jts/jts-core/1.17.1/jts-core-1.17.1.jar' version='1.17.1'>
     <description>The JTS Topology Suite is an API for 2D linear geometry predicates and functions.</description>
-    <size>854434</size>
-    <license>https://github.com/locationtech/jts/blob/master/LICENSE_EPLv1.txt, https://github.com/locationtech/jts/blob/master/LICENSE_EDLv1.txt</license>
+    <size>888170</size>
+    <license>https://github.com/locationtech/jts/blob/master/LICENSE_EPLv2.txt, https://github.com/locationtech/jts/blob/master/LICENSE_EDLv1.txt</license>
     <capability name='bundle'>
       <p n='symbolicname' v='org.locationtech.jts.jts-core'/>
       <p n='presentationname' v='jts-core'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='manifestversion' v='2'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.locationtech.jts.geomgraph'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph.index'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.geomgraph.index'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.planargraph'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.planargraph.algorithm'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.planargraph'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.shape.fractal'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.shape'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.shape.random'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.shape'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.shape'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.triangulate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index.kdtree,org.locationtech.jts.triangulate.quadedge'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.triangulate.quadedge'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.math'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.intervalrtree'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.index'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.chain'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.strtree'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.sweepline'/>
-      <p n='version' t='version' v='1.16.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.kdtree'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.bintree'/>
-      <p n='version' t='version' v='1.16.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.index.quadtree'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.precision'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.geom.util'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.linearref'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.awt'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.math'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.simplify'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.noding'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.index,org.locationtech.jts.index.chain'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.noding.snapround'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.index,org.locationtech.jts.index.chain,org.locationtech.jts.noding'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.geom'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.geom.util'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.util'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.geom.prep'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm.locate,org.locationtech.jts.geom,org.locationtech.jts.noding'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.edgegraph'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
+      <p n='package' v='org.locationtech.jts'/>
+      <p n='version' t='version' v='1.17.1'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.locationtech.jts.algorithm'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.math'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.locationtech.jts.algorithm.locate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.algorithm.match'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='package' v='org.locationtech.jts.algorithm.construct'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.locationtech.jts.algorithm.distance'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.polygonize'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='package' v='org.locationtech.jts.algorithm.locate'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.distance3d'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.math,org.locationtech.jts.operation.distance'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.union'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='package' v='org.locationtech.jts.algorithm.match'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.linemerge'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.planargraph'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.buffer'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.buffer.validate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.distance'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index.strtree'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.valid'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.predicate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.overlay.validate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.overlay'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph,org.locationtech.jts.operation'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.overlay.snap'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.operation.relate'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph,org.locationtech.jts.operation'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts'/>
-      <p n='version' t='version' v='1.16.1'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.dissolve'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.util'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='package' v='org.locationtech.jts.awt'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.locationtech.jts.densify'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.dissolve'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.edgegraph'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geom'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geom.impl'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geom.prep'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm.locate,org.locationtech.jts.geom,org.locationtech.jts.noding'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geom.util'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geomgraph'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph.index'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.geomgraph.index'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.bintree'/>
+      <p n='version' t='version' v='1.17.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.chain'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.hprtree'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.intervalrtree'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.index'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.kdtree'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.quadtree'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.strtree'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.index.sweepline'/>
+      <p n='version' t='version' v='1.17.1'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.locationtech.jts.io'/>
-      <p n='version' t='version' v='1.16.1'/>
-      <p n='uses:' v='org.locationtech.jts.geom'/>
-    </capability>
-    <capability name='package'>
-      <p n='package' v='org.locationtech.jts.io.kml'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.locationtech.jts.io.gml2'/>
-      <p n='version' t='version' v='1.16.1'/>
+      <p n='version' t='version' v='1.17.1'/>
       <p n='uses:' v='javax.xml.parsers,org.locationtech.jts.geom,org.xml.sax,org.xml.sax.helpers'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.io.kml'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.linearref'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.math'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.noding'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.index,org.locationtech.jts.index.chain'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.noding.snapround'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.index,org.locationtech.jts.index.chain,org.locationtech.jts.noding'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.buffer'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.buffer.validate'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.distance'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index.strtree'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.distance3d'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.math,org.locationtech.jts.operation.distance'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.linemerge'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.planargraph'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.overlay'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph,org.locationtech.jts.operation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.overlay.snap'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.overlay.validate'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.polygonize'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.predicate'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.relate'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.algorithm,org.locationtech.jts.geom,org.locationtech.jts.geomgraph,org.locationtech.jts.operation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.union'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.operation.valid'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.geomgraph'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.planargraph'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.planargraph.algorithm'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.planargraph'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.precision'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.geom.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.shape'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.shape.fractal'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.shape'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.shape.random'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.shape'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.simplify'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.triangulate'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.index.kdtree,org.locationtech.jts.triangulate.quadedge'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.triangulate.quadedge'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom,org.locationtech.jts.math'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.locationtech.jts.util'/>
+      <p n='version' t='version' v='1.17.1'/>
+      <p n='uses:' v='org.locationtech.jts.geom'/>
     </capability>
     <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.algorithm))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.algorithm</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.algorithm.distance))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.algorithm.distance</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.algorithm.locate))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.algorithm.locate</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.edgegraph))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.edgegraph</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.geom))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.geom</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.geom.impl))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.geom.impl</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.geom.util))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.geom.util</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.geomgraph))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.geomgraph</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.geomgraph.index))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.geomgraph.index</require>
@@ -285,7 +302,9 @@
     <require name='package' filter='(&amp;(package=org.locationtech.jts.index.kdtree))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.index.kdtree</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.index.quadtree))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.index.quadtree</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.index.strtree))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.index.strtree</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.io))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.io</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.math))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.math</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.noding))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.noding</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.noding.snapround))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.noding.snapround</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.operation))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.operation</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.operation.buffer))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.operation.buffer</require>
@@ -300,6 +319,8 @@
     <require name='package' filter='(&amp;(package=org.locationtech.jts.planargraph.algorithm))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.planargraph.algorithm</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.precision))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.precision</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.shape))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.shape</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.shape.fractal))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.shape.fractal</require>
+    <require name='package' filter='(&amp;(package=org.locationtech.jts.triangulate.quadedge))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.triangulate.quadedge</require>
     <require name='package' filter='(&amp;(package=org.locationtech.jts.util))' extend='false' multiple='false' optional='false'>Import package org.locationtech.jts.util</require>
     <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
     <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='false'>Import package org.xml.sax.helpers</require>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 26 07:08:22 CET 2020
+https\://repo.maven.apache.org/maven2/.lastUpdated=1603692502582
+@default-central.maven.org-https\://central.maven.org/maven2/.lastUpdated=1603692502565
+https\://central.maven.org/maven2/.error=Could not transfer artifact org.jdom\:jdom2\:pom\:2.0.6 from/to central.maven.org (https\://central.maven.org/maven2)\: Transfer failed for https\://central.maven.org/maven2/org/jdom/jdom2/2.0.6/jdom2-2.0.6.pom
