@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Oct 26 07:08:18 CET 2020
-https\://repo.maven.apache.org/maven2/.lastUpdated=1603692498887
-@default-central.maven.org-https\://central.maven.org/maven2/.lastUpdated=1603692498870
+#Sat Feb 27 12:04:45 CET 2021
+https\://repo.maven.apache.org/maven2/.lastUpdated=1614423885888
+@default-central.maven.org-https\://central.maven.org/maven2/.lastUpdated=1614423885871
 https\://central.maven.org/maven2/.error=Could not transfer artifact com.googlecode.json-simple\:json-simple\:pom\:1.1.1 from/to central.maven.org (https\://central.maven.org/maven2)\: Transfer failed for https\://central.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom

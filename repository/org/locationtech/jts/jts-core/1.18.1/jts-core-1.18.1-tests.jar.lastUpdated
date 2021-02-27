@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Feb 27 12:04:48 CET 2021
+https\://repo.maven.apache.org/maven2/.lastUpdated=1614423888163
+@default-central.maven.org-https\://central.maven.org/maven2/.lastUpdated=1614423885891
+https\://central.maven.org/maven2/.error=Could not transfer artifact org.locationtech.jts\:jts-core\:jar\:tests\:1.18.1 from/to central.maven.org (https\://central.maven.org/maven2)\: Transfer failed for https\://central.maven.org/maven2/org/locationtech/jts/jts-core/1.18.1/jts-core-1.18.1-tests.jar

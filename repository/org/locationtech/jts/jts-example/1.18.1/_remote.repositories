@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Feb 27 12:04:50 CET 2021
+jts-example-1.18.1.jar>=
+jts-example-1.18.1.pom>=
+jts-example-1.18.1-sources.jar>=
